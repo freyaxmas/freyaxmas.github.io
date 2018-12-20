@@ -1,0 +1,112 @@
+body {
+  background-image: url("../img/christmas-conifer-cone-decoration-639110.jpg");
+  background-color: rgba(98, 89, 137, 0.3);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  background-position: bottom;
+}
+
+.cardWrapper {
+  height: 500px;
+  width: 700px;
+  margin: 120px auto 0 auto;
+  position: relative;
+  perspective: 2000px;
+}
+
+.cardBack {
+  height: 500px;
+  width: 700px;
+  background-image: url("../img/background-brown-christmas-748649.jpg");
+  background-color: rgb(219, 216, 201);
+  background-blend-mode: screen;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #666666;
+  position: absolute;
+}
+
+.cardFront {
+  display: block;
+  height: 500px;
+  width: 700px;
+  background-color: #EEEEEE;
+  border: 2px solid rgba(97, 97, 97, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transform: rotateX(20deg);
+  transform-origin: top;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease-in-out;
+}
+
+.tree {
+  display: block;
+  height: 500px;
+  width: 700px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+h1 {
+  font-family: 'Bad Script';
+  font-size: 60px;
+  color: #fce9de;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  text-shadow: -2px 2px rgb(4, 4, 97);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+h2 {
+  font-family: 'Bad Script';
+  font-size: 40px;
+  color: #fce9de;
+  position: absolute;
+  top: 350px;
+  left: 120px;
+  text-shadow: -2px 2px rgb(4, 4, 97);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+p {
+  font-family: 'Bad Script';
+  font-size: 24px;
+  padding: 0px 10px 0px 10px;
+  margin: 15px 20px 10px 20px;
+  color: #002060;
+}
+
+.greeting {
+  line-height: 1.25;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.cardBack p:first-child {
+  margin-top: 100px;
+}
+
+.cardBack p:nth-child(2) {
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.info {
+  font-size: 14px;
+  font-family: 'Garamond';
+}
+
+.cardWrapper:hover .cardFront {
+  transform: rotateX(90deg);
+  transform-origin: top;
+
+}
