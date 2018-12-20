@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/christmas-conifer-cone-decoration-639110.jpg");
+  background-image: url("../img/resized-background.jpg");
   background-color: rgba(98, 89, 137, 0.3);
   background-blend-mode: multiply;
   background-size: cover;
@@ -20,7 +20,7 @@ body {
 .cardBack {
   height: 500px;
   width: 700px;
-  background-image: url("../img/background-brown-christmas-748649.jpg");
+  background-image: url("../img/resized-pinecones.jpg");
   background-color: rgb(219, 216, 201);
   background-blend-mode: screen;
   background-size: cover;
