@@ -31,7 +31,6 @@ a.freya:hover {
   width: 700px;
   background-image: url("../img/inner_2020.jpg");
   background-color: rgb(219, 216, 201);
-  background-blend-mode: screen;
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid #666666;
