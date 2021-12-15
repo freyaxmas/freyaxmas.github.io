@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/background_2020.jpeg");
+  background-image: url("../img/background_2021.jpeg");
   background-color: rgba(98, 89, 137, 0.3);
   background-blend-mode: multiply;
   background-size: cover;
@@ -29,7 +29,7 @@ a.freya:hover {
 .cardBack {
   height: 500px;
   width: 700px;
-  background-image: url("../img/inner_2020.jpg");
+  background-image: url("../img/inner_2021.jpg");
   background-color: rgb(219, 216, 201);
   background-size: cover;
   background-repeat: no-repeat;
