@@ -1,3 +1,5 @@
+/*
+use only if using a static background, not video
 body {
   background-image: url("../img/background_2021.jpeg");
   background-color: rgba(98, 89, 137, 0.3);
@@ -7,6 +9,16 @@ body {
   height: 100vh;
   overflow: hidden;
   background-position: bottom;
+}
+*/
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 a.freya:link, a.freya:visited {
