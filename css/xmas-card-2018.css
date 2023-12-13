@@ -109,15 +109,14 @@ p {
   line-height: 1.25;
   font-style: italic;
   font-weight: bold;
-  text-align: center;
 }
 
 .cardBack p:first-child {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .cardBack p:nth-child(4) {
-  text-align: right;
+  text-align: center;
   margin-top: 40px;
 }
 
